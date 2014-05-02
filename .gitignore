@@ -1,0 +1,17 @@
+/*
+!/.gitignore
+!/composer.json
+
+!/htdocs
+/htdocs/*
+!/htdocs/wwii
+/htdocs/wwii/*
+!/htdocs/wwii/.gitkeep
+
+!/vendor
+/vendor/*
+!/vendor/.gitkeep
+!/vendor/autoload.php
+!/vendor/wwii
+/vendor/wwii/*
+!/vendor/wwii/bootstrap.php
