@@ -12,6 +12,15 @@
 /vendor/*
 !/vendor/.gitkeep
 !/vendor/autoload.php
+
+!/vendor/bin
+/vendor/bin/*
+!/vendor/bin/.gitkeep
+!/vendor/bin/cli-config.php
+!/vendor/bin/doctrine-manager.php
+!/vendor/bin/system-manager.php
+
 !/vendor/wwii
 /vendor/wwii/*
+!/vendor/wwii/.gitkeep
 !/vendor/wwii/bootstrap.php
