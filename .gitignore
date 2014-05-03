@@ -4,9 +4,7 @@
 
 !/htdocs
 /htdocs/*
-!/htdocs/wwii
-/htdocs/wwii/*
-!/htdocs/wwii/.gitkeep
+!/htdocs/.gitkeep
 
 !/vendor
 /vendor/*
