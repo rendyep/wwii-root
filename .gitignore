@@ -5,8 +5,10 @@
 !/htdocs
 /htdocs/*
 !/htdocs/.gitkeep
+
 !/htdocs/wwii
 /htdocs/wwii/*
+!/htdocs/wwii/.gitkeep
 !/htdocs/wwii/index.php
 
 !/vendor
@@ -25,3 +27,4 @@
 /vendor/wwii/*
 !/vendor/wwii/.gitkeep
 !/vendor/wwii/bootstrap.php
+!/vendor/wwii/init_autoload.php
