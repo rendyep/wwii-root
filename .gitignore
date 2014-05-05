@@ -5,6 +5,9 @@
 !/htdocs
 /htdocs/*
 !/htdocs/.gitkeep
+!/htdocs/wwii
+/htdocs/wwii/*
+!/htdocs/wwii/index.php
 
 !/vendor
 /vendor/*
