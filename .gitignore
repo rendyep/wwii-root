@@ -10,6 +10,9 @@
 /htdocs/wwii/*
 !/htdocs/wwii/.gitkeep
 !/htdocs/wwii/index.php
+!/htdocs/wwii/includes
+/htdocs/wwii/includes/*
+!/htdocs/wwii/includes/.gitkeep
 
 !/vendor
 /vendor/*
