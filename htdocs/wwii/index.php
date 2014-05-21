@@ -44,6 +44,7 @@
             <?php include("./includes/title.php");?>
         </title>
         <link href="./styles/arina.css" rel="stylesheet" type="text/css"/>
+        <link href="./styles/form.css" rel="stylesheet" type="text/css"/>
         <link href="./styles/topmenu.css" rel="stylesheet" type="text/css"/>
         <link href="./styles/leftmenu2.css" rel="stylesheet" type="text/css"/>
         <script src="./libs/leftmenu2.js" type="text/javascript"></script>
