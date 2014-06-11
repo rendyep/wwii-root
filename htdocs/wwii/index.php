@@ -19,7 +19,7 @@
 
     include_once('init_autoload.php');
 
-    if (isset($_GET['bypass'])) {
+    if (isset($_GET['bypass']) || isset($_GET['print'])) {
         ob_start();
         session_start();
         require_once('bootstrap.php');
