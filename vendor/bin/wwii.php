@@ -39,28 +39,24 @@ try {
     $result = $parser->parse();
 
     $controllerName = $result->command_name;
-    $actionName = 'defaultAction';
 
     if (! empty($result->command)) {
-        if (isset($result->command->options)) {
-            foreach ($result->command->options as $key => $option) {
-                if ($option == 1) {
-                    $actionName = $key . 'Action';
-                }
-            }
-        }
-
         $controller = new $config['console']['commands'][$controllerName]['controller'](
             $serviceManager,
             $entityManager
         );
+
+        $options = null;
+        if (isset($result->command->options)) {
+            $options = $result->command->options;
+        }
 
         $args = null;
         if (isset($result->command->args)) {
             $args = $result->command->args;
         }
 
-        $controller->{$actionName}($args);
+        $controller->run($options, $args);
     }
 } catch (\Exception $e) {
     $parser->displayError($e->getMessage());
