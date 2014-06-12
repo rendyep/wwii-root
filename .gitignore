@@ -24,6 +24,8 @@
 !/vendor/bin/cli-config.php
 !/vendor/bin/doctrine-manager.php
 !/vendor/bin/system-manager.php
+!/vendor/bin/wwii.bat
+!/vendor/bin/wwii.php
 
 !/vendor/wwii
 /vendor/wwii/*
