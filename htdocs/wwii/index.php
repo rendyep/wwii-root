@@ -77,10 +77,15 @@
                 <h3><?php echo $pageTitle;?></h3>
                 <!-- CONTENT FILTER /-->
                 <?php
-                    if(!isset($_GET['c'])||$_GET['c']==""){
+                    if (! isset($_GET['c'])||$_GET['c']=="") {
                         include("./includes/home.php");
+                    } elseif ($_GET['sub']=="svlk") {
+                        //echo "<script type=text/javascript>";
+                        //echo "window.location.href = http://192.168.0.1:8080/tri_svlk";
+                        //echo "</script>";
+                        header('location:http://192.168.0.1:8080/tri_svlk');
                     } else {
-                        if(!file_exists("./includes/controller.php")){
+                        if (! file_exists("./includes/controller.php")) {
                             include("./includes/404.php");
                         } else {
                             //~echo '<img src="./images/icons/$_GET[c].png" width="64"'
